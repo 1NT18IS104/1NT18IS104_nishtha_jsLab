@@ -1,0 +1,135 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/52/e9/94/52e994404c4564f0da3b6886213fbb46.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+h1{
+    font-family: URW Chancery L;
+    font-size: 40px;
+    font-style: italic;    margin-left: 500px;
+    margin-right: 470px;
+    color: rgb(104, 4, 4);
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    padding: 10px;
+    background-color:#ffd8ea;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 650px;
+    margin-right: 500px;
+    color: cornflowerblue;
+}
+
+form{
+    background-color: rgb(255, 216, 234,0.8);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color:rgb(0, 0, 0);
+    margin-left: 450px;
+    margin-right: 500px;
+    margin-top: 70px;
+    width: 650px;
+    height: 500px;
+    border-style: solid;  
+    border-width:3px;  
+    border-radius: 20px;
+    border-color: black;
+}
+label{
+    display: inline-block;
+    margin-left: 180px;
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+#name, #getName, .task{
+    display: block;
+    margin: 10px 0px 0px 180px ;
+    padding: 10px 0px 7px 6px; 
+    border: none;
+    font-size: 15px;
+    width: 280px;
+    
+}
+
+.buttonInside{
+    position: relative;
+}
+
+#add{
+    position: absolute;
+    right: 200px;
+    top: 7px;
+    border:none;
+    height:20px;
+    width:20px;
+    border-radius:100%;
+    outline:none;
+    text-align:center;
+    font-weight:bold;
+    padding:2px;
+    background-color: rgba(204, 58, 58, 0.644);
+    color: white;
+}
+
+#add:hover{
+    cursor: pointer;
+}
+
+#Submit, #Fetch{
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    margin-top: 30px;
+    background-color: #ffd8ea;
+    font-weight: bold;
+}
+#Submit{
+    display: inline-block;
+    margin-left: 240px;
+    
+}
+#Submit:hover, #Fetch:hover, #getData:hover{
+    cursor: pointer;
+    background-color: rgb(221, 145, 156);
+    box-shadow: 2px 2px 2px;
+    transform: translateY(-3px);
+}
+
+/* fetch page */
+#fetchName{
+    margin: 15px 0px 15px 200px;
+    color:rgb(153, 2, 2); 
+    font-size: 30px;
+}
+
+#getData{
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    margin-top: none;
+    background-color: #ffd8ea;
+    font-weight: bold;
+    margin-left: 270px;
+    padding: 8px 5px;
+    width: 120px;
+    font-size: 15px;
+}
+
+#getName{
+    margin-top: 120px;
+}
+
+#List{
+    margin-top: 30px;
+    margin-left: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li{
+    margin-top: 30px;
+}

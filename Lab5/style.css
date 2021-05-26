@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(111, 158, 134);
+}
+
+.calc{
+    height: 420px;
+    width: 350px;
+    background-color: rgb(141, 186, 245);
+    margin-left: 550px;
+    margin-top: 150px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(172, 170, 170, 0.637);
+}
+
+.result{
+    background-color: rgb(216, 205, 214);
+    height: 50px;
+    width: 300px;
+    margin: 20px;
+    padding-top: 10px;
+    box-shadow: 2px 7px 0px rgb(158, 158, 158);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Courier, monospace';
+    text-align-last: right;
+}
+
+button{
+    background-color: rgb(238, 203, 233);
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    box-shadow: 2px 7px 0px rgb(71, 71, 71);
+    font-weight: bold;
+    border: none;
+    
+}
+
+button:active{
+    background-color: rgb(238, 176, 229);
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    box-shadow: 3px 3px 0px rgb(71, 71, 71);
+    transform: translateY(4px);
+    font-weight: bold;
+}
+
+.symbol{
+    background-color: rgb(247, 247, 134);
+    font-size: 20px;
+}
+
+.symbol:active{
+    background-color: rgb(241, 241, 93);
+}
+
+.cancel{
+    background-color: rgb(223, 109, 109);
+}
+
+.cancel:active{
+    background-color: rgb(223, 84, 84);
+}

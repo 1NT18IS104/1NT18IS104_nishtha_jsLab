@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data collection using scripts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to the To-Do List app</h1>
+    <!-- <h2>Let's get started!</h2> -->
+    <form id="create"  autocomplete="off">
+        <label for="name">Hi what's your name</label><br>
+        <input type="text" id="name" placeholder="Enter your name here"><br>
+
+        <label for="task" id="label">Let's set some goals!</label><br>
+        <div class="buttonInside" id="buttonInside">
+            <input type="text" id="task" placeholder="Task" class="task">
+            <button id="add">+</button>
+        </div>
+
+        <button type="submit"  id="Submit" onclick="onsubmit" >Submit</button>
+
+        <a href='fetch.html' target="_self" id="fetchPage"><button type="button" id="Fetch">Fetch</button></a>
+    </form>
+</body>
+<script src="script.js"></script>
+</html>

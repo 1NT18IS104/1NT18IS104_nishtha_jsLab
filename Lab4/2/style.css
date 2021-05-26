@@ -1,0 +1,85 @@
+body{
+    background-image: url("bg.gif");
+}
+
+#sendReq {
+    width: 300px;
+    height: 60px;
+    background-color: rgb(255, 146, 119);
+    color:red; 
+    margin-left: 620px;
+    margin-top: 120px;
+    font-size:20px;
+    font-weight: bold;
+    font-family: 'Hack', monospace;
+    transition: all 0.3s ease 0s;
+    
+}
+#sendReq:hover{
+    box-shadow: 5px 10px 20px black;
+    cursor: pointer;
+    transform: translateY(-7px);
+}
+
+.parsedData{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 30px;
+    margin-top: 250px;
+}
+
+.card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+}
+
+.front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: rgb(66, 219, 155);
+    color: black;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 20px 10px 20px black;
+}
+
+.back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #393ce7;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    transform: rotateY(180deg);
+    box-shadow: 20px 10px 20px black;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+p{
+    margin-top: 120px;
+    font-size: 35px;
+    font-weight: 200;
+    font-family: 'scratchBoys', serif;
+}
+
+@font-face {
+    font-family: 'scratchBoys';
+    src: local('Scratch Boys'),
+    local('Scratch Boys'),
+    url('C:/Users/USER/AppData/Local/Microsoft/Windows/Fonts/Scratch Boys Demo 400.ttf')
+    format('truetype');
+}

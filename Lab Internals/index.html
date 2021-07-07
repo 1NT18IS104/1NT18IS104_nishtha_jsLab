@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Get Vaccinated today!</h1>
+  <form action="" method="" id="vaccinationdata">
+    <div class="data">
+      <label for="firstName" style="margin-right: 10px;">First Name </label>
+      <input type="text" name="firstName" id="firstName" required placeholder="Enter your first name">
+    </div>
+
+    <div class="data">
+      <label for="lastName" style="margin-right: 12px;">Last Name </label>
+      <input type="text" name="lastName" id="lastName" required placeholder="Enter your last name">
+    </div>
+
+    <div class="data">
+      <label for="age">Age group</label><br>
+      <input type="radio" name="age"> 18-44
+      <input type="radio" name="age">45+
+    </div>
+
+    <div class="data">
+      <label for="vStatus">Have you taken any vaccine before? </label><br>
+      <input type="radio" name="vStatus" id="yes"> Yes
+      <input type="radio" name="vStatus" id="no"> No
+    </div>
+
+    <div class="data" id="vaccine">
+      <label for="vaccine">Which vaccine have you taken?</label><br>
+      <input type="radio" name="vaccine" id="covi"> Covishield
+      <input type="radio" name="vaccine" id="covax">Covaxine
+      <input type="radio" name="vaccine" id="sput">Sputnik
+    </div>
+
+    <div class="data" id="shotType">
+      <label for="shotType">How manty does have you taken?</label><br>
+      <input type="radio" name="shotType" class="shotType" id="shotone"> Dose 1
+      <input type="radio" name="shotType" class="shotType" id="shottwo">Dose 2
+    </div>
+
+    <div class="submit_but">
+      <input type="submit" id="submit" value="Submit">
+    </div>
+  </form>
+
+  <form id="doseoneform" style="display: none;">
+    <div class="data" id="covidose">
+      <label for="timespan">Have is it been 12 weeks since you took your first dose?</label><br>
+      <input type="radio" name="timespan" id="yestwo"> Yes
+      <input type="radio" name="timespan" > No
+    </div>
+
+    <div class="data" id="covaxdose">
+      <label for="timespan">Have is it been 4 weeks since you took your first dose?</label><br>
+      <input type="radio" name="timespan" id="yestwo"> Yes
+      <input type="radio" name="timespan"> No
+    </div>
+
+    <div class="submit_but">
+      <input type="submit" id="submit_two" value="Submit">
+    </div>
+  </form>
+
+  <div id="notVaccinated">
+    <p>Book your appoitment today on the <a href="https://www.mygov.in/aarogya-Setu-app/">Aarogya Setu App</a>!</p>
+  </div>
+
+  <div id="vaccinated">
+    <p style="font-weight: bold;">You are vaccinated!</p>
+    <p> Register on the <a href="https://www.mygov.in/aarogya-Setu-app/">Aarogya Setu App</a> to stay updated about Covid-19</p>
+  </div>
+
+  <div id="vaccinated_two">
+    <p> Register on the <a href="https://www.mygov.in/aarogya-Setu-app/">Aarogya Setu App</a> to stay updated about Covid-19</p>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>

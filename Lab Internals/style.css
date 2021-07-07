@@ -1,0 +1,61 @@
+h1 {
+    margin: 300px 400px 0px 600px ;
+    color: rgba(134,10,62,255);
+    font-family: fantasy;
+}
+
+
+#data {
+    padding: 15px 300px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+
+#submit, #submit_two {
+    margin: 30px 0px 0px 110px;
+    padding: 10px 30px;
+    background-color: rgba(134,10,62,255);
+    font-family: emoji;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}
+
+#submit:hover, #submit_two:hover{
+    cursor: pointer;
+}
+body{
+    background-image: url("cover.gif");
+    background-repeat:no-repeat;
+    background-color: rgba(0,8,30,255);
+    background-position: top;
+}
+
+form{
+    margin: 50px 550px 0px 550px;
+    border-color: white;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 30px 30px 30px 30px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #699fde;
+}
+
+#vaccine, #shotType, #covidose, #covaxdose {
+    display: none;
+}
+
+#notVaccinated, #vaccinated, #vaccinated_two{
+    margin: 50px 600px 0px 600px;
+    border-color: white;
+    border-radius: 22px;
+    border-style: solid;
+    padding: 30px 30px 30px 30px;
+    font-size: 18px;
+    font-family: fangsong;
+    background-color: #699fde;
+    display: none;
+}
+
